@@ -22,7 +22,6 @@
 <script>
 import { mapActions, mapState } from 'vuex'
 import primaryFields from './primaryFields'
-import SettingsForm from '@/components/SettingsForm'
 export default {
     data(){
         return {
@@ -33,9 +32,6 @@ export default {
     computed: mapState('settings', ['pending', 'error', 'form', 'updated']),
     created(){
         this.load()
-    },
-    components: {
-        SettingsForm
     }
 
 }
