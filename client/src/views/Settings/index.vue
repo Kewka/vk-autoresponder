@@ -26,8 +26,7 @@ import SettingsForm from '@/components/SettingsForm'
 export default {
     data(){
         return {
-            primaryFields,
-            secondaryFields
+            primaryFields
         }
     },
     methods: mapActions('settings', ['load', 'update']),
