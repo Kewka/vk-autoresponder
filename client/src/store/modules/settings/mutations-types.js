@@ -1,0 +1,6 @@
+export const FETCHING_START = 'FETCHING_START'
+export const FETCHING_ERROR = 'FETCHING_ERROR'
+export const UPDATE_SETTINGS = 'UPDATE_SETTINGS'
+export const SET_UPDATED = 'SET_UPDATED'
+export const CHANGE_FIELD = 'CHANGE_FIELD'
+export const RESET = 'RESET'

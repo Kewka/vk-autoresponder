@@ -1,0 +1,5 @@
+export const FETCHING_START = 'FETCHING_START'
+export const FETCHING_ERROR = 'FETCHING_ERROR'
+export const AUTH_COMPLETE = 'AUTH_COMPLETE'
+export const RESET_STATE = 'RESET_STATE'
+export const LOGOUT = 'LOGOUT'

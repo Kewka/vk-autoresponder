@@ -1,0 +1,6 @@
+export const FETCHING_START = 'FETCHING_START'
+export const FETCHING_ERROR = 'FETCHING_ERROR'
+export const ADD_ANSWER = 'ADD_ANSWER'
+export const REMOVE_ANSWER = 'REMOVE_ANSWER'
+export const SET_ANSWERS = 'SET_ANSWERS'
+export const RESET = 'RESET'
