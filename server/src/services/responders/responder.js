@@ -178,8 +178,10 @@ export default class Responder{
         logger.debug(`[${this.user_id}]:`, response);
         if (response && response.ts !== undefined){
             await this.updateLongPoll(response.ts);
-            const newMessages = response.updates.filter(item => item[0] === 4);
-            for (let m of newMessages) await this.onMessage(m);
+			if (response.updates){
+				const newMessages = response.updates.filter(item => item[0] === 4);
+				for (let m of newMessages) await this.onMessage(m);
+			}
             return this.listen();
         }
         this.longpoll = null;
